@@ -77,7 +77,6 @@ div.campo > label {
 
 div.campo > span {
     color: white;
-
     font-size: 2em;
     width: 40px;
     padding: 5px;
@@ -86,12 +85,12 @@ div.campo > span {
 div.campo > input {
     background-color: #8ce0de;
     font-size: 1em;
-    width: calc(100% - 44px);
+    width: calc(100% - 50px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    translate: 44px -42px;
+    transform: translateY(-12px );
 }
 
 div.campo > input:focus-within {
